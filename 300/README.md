@@ -3,8 +3,8 @@
 Ballerina encourages to have one microservice per package. In order to adhere to that rule, code to cloud generates only one container per package. These artifacts can be found in the ```target``` directory of the package. A complete representation of the package layout is as follows.
 
 ```
-├── Cloud.toml                               
-├── Ballerina.lock
+├── Cloud.toml (optional)                              
+├── Ballerina.lock (auto-generated)
 ├── Ballerina.toml
 ├── entry.bal 
 ├── modules (optional)
@@ -23,7 +23,7 @@ Ballerina encourages to have one microservice per package. In order to adhere to
             └── <module>-0.0.1.yaml 
 ```
 
-## 100 - Cloud.toml
+## 100 - Cloud.toml (optional)
 See [README.md](./100/README.md)
 
 ## 200 - Ballerina.toml
